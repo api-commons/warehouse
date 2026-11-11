@@ -1,0 +1,17 @@
+provider: xentral
+apis_io: https://apis.io/providers/xentral/
+context: warehouse
+generated: '2026-11-11'
+concepts:
+  warehouse:
+    path_segment:
+    - warehouses
+    properties:
+      id: id
+      address: address
+    core_coverage: 0.667
+    evidence:
+    - openapi/_original/xentral-api-openapi-original.json#DELETE /api/v1/warehouses/{id}
+    - openapi/_original/xentral-api-openapi-original.json#GET /api/v1/warehouses
+    - openapi/_original/xentral-api-openapi-original.json#PATCH /api/v1/warehouses/{id}
+    - openapi/_original/xentral-api-openapi-original.json#POST /api/v1/warehouses

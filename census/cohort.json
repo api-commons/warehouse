@@ -1,0 +1,777 @@
+[
+ {
+  "slug": "3plcentral",
+  "specs": [
+   "openapi/_original/3plcentral-openapi.yml"
+  ]
+ },
+ {
+  "slug": "99-minutos",
+  "specs": [
+   "openapi/_original/99minutos-api-v3-openapi.json"
+  ]
+ },
+ {
+  "slug": "aeb",
+  "specs": [
+   "openapi/_original/aeb-bsm-openapi.json",
+   "openapi/_original/aeb-carrier-connect-openapi.json",
+   "openapi/_original/aeb-carrier-event-service-openapi.json",
+   "openapi/_original/aeb-carrier-select-openapi.json",
+   "openapi/_original/aeb-customs-broker-portal-openapi.json",
+   "openapi/_original/aeb-customs-inventory-management-openapi.json",
+   "openapi/_original/aeb-customs-management-openapi.json",
+   "openapi/_original/aeb-document-service-openapi.json",
+   "openapi/_original/aeb-logistics-cost-management-openapi.json",
+   "openapi/_original/aeb-product-classification-openapi.json",
+   "openapi/_original/aeb-trade-compliance-management-openapi.json"
+  ]
+ },
+ {
+  "slug": "aftership",
+  "specs": [
+   "openapi/_original/aftership-commerce-api-openapi.yml",
+   "openapi/_original/aftership-members-api-openapi.yml",
+   "openapi/_original/aftership-parser-api-openapi.yml",
+   "openapi/_original/aftership-personalization-api-openapi.yml",
+   "openapi/_original/aftership-protection-api-openapi.yml",
+   "openapi/_original/aftership-shipping-api-openapi.yml",
+   "openapi/_original/aftership-warranty-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "amazon-seller-central",
+  "specs": [
+   "openapi/_original/amazon-seller-central-catalog-items-2022-04-01-original.json",
+   "openapi/_original/amazon-seller-central-fba-inventory-v1-original.json",
+   "openapi/_original/amazon-seller-central-feeds-2021-06-30-original.json",
+   "openapi/_original/amazon-seller-central-finances-2024-06-19-original.json",
+   "openapi/_original/amazon-seller-central-finances-v0-original.json",
+   "openapi/_original/amazon-seller-central-fulfillment-inbound-2024-03-20-original.json",
+   "openapi/_original/amazon-seller-central-fulfillment-outbound-2020-07-01-original.json",
+   "openapi/_original/amazon-seller-central-listings-items-2021-08-01-original.json",
+   "openapi/_original/amazon-seller-central-listings-restrictions-2021-08-01-original.json",
+   "openapi/_original/amazon-seller-central-notifications-v1-original.json",
+   "openapi/_original/amazon-seller-central-orders-2026-01-01-original.json",
+   "openapi/_original/amazon-seller-central-orders-v0-original.json",
+   "openapi/_original/amazon-seller-central-product-fees-v0-original.json",
+   "openapi/_original/amazon-seller-central-product-pricing-2022-05-01-original.json",
+   "openapi/_original/amazon-seller-central-product-pricing-v0-original.json",
+   "openapi/_original/amazon-seller-central-product-type-definitions-2020-09-01-original.json",
+   "openapi/_original/amazon-seller-central-reports-2021-06-30-original.json",
+   "openapi/_original/amazon-seller-central-sales-v1-original.json",
+   "openapi/_original/amazon-seller-central-sellers-v1-original.json",
+   "openapi/_original/amazon-seller-central-shipping-v2-original.json",
+   "openapi/_original/amazon-seller-central-tokens-2021-03-01-original.json"
+  ]
+ },
+ {
+  "slug": "ankorstore",
+  "specs": [
+   "openapi/_original/ankorstore-astral-openapi-original.yml",
+   "openapi/_original/ankorstore-fulfillment-openapi-original.yml",
+   "openapi/_original/ankorstore-main-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "barogo",
+  "specs": [
+   "openapi/_original/barogo-gorela-openapi.yml"
+  ]
+ },
+ {
+  "slug": "benchling-lims",
+  "specs": [
+   "openapi/_original/benchling-lims-openapi.yml"
+  ]
+ },
+ {
+  "slug": "boxc",
+  "specs": [
+   "openapi/_original/boxc-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "bringg",
+  "specs": [
+   "openapi/_original/bringg-delivery-hub-api-openapi.yml",
+   "openapi/_original/bringg-drivers-shifts-api-openapi.yml",
+   "openapi/_original/bringg-fleet-partners-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "british-columbia-data-catalogue",
+  "specs": [
+   "openapi/_original/british-columbia-data-catalogue-openapi.yml"
+  ]
+ },
+ {
+  "slug": "byrd",
+  "specs": [
+   "openapi/_original/byrd-apis-openapi.yml",
+   "openapi/_original/byrd-apis-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "canal",
+  "specs": [
+   "openapi/_original/canal-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "cart-com",
+  "specs": [
+   "openapi/_original/cart-com-online-store-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "copthis",
+  "specs": [
+   "openapi/_original/copthis-partner-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "coyote",
+  "specs": [
+   "openapi/_original/openapi.json"
+  ]
+ },
+ {
+  "slug": "doordash",
+  "specs": [
+   "openapi/_original/doordash-ads-openapi.yml",
+   "openapi/_original/doordash-drive-classic-openapi.yml",
+   "openapi/_original/doordash-drive-dasher-feedback-openapi.yml",
+   "openapi/_original/doordash-drive-openapi.yml",
+   "openapi/_original/doordash-drive-redelivery-openapi.yml",
+   "openapi/_original/doordash-drive-refunds-openapi.yml",
+   "openapi/_original/doordash-external-checkout-openapi.yml",
+   "openapi/_original/doordash-item-management-openapi.yml",
+   "openapi/_original/doordash-marketplace-legacy-openapi.yml",
+   "openapi/_original/doordash-marketplace-openapi.yml",
+   "openapi/_original/doordash-parcel-openapi.yml",
+   "openapi/_original/doordash-reporting-openapi.yml",
+   "openapi/_original/doordash-storefront-openapi.yml"
+  ]
+ },
+ {
+  "slug": "dsv",
+  "specs": [
+   "openapi/_original/dsv-access-token-demo-v1-openapi.json",
+   "openapi/_original/dsv-connect-api-booking-demo-v1-openapi.json",
+   "openapi/_original/dsv-connect-api-tracking-demo-v1-openapi.json",
+   "openapi/_original/dsv-customs-ai-demo-v2-openapi.json",
+   "openapi/_original/dsv-edc-booking-api-v2-openapi.json",
+   "openapi/_original/dsv-edc-edocs-api-v2-openapi.json",
+   "openapi/_original/dsv-edc-events-api-v2-openapi.json",
+   "openapi/_original/dsv-edc-loadplan-api-v2-openapi.json",
+   "openapi/_original/dsv-edc-neom-api-v2-openapi.json",
+   "openapi/_original/dsv-edc-public-api-v2-openapi.json",
+   "openapi/_original/dsv-edc-shipments-api-v2-openapi.json",
+   "openapi/_original/dsv-es-quote-demo-v1-openapi.json",
+   "openapi/_original/dsv-es-webhook-demo-v1-openapi.json",
+   "openapi/_original/dsv-es-webhook-int-v1-openapi.json",
+   "openapi/_original/dsv-generic-booking-demo-v2-openapi.json",
+   "openapi/_original/dsv-generic-download-demo-v1-openapi.json",
+   "openapi/_original/dsv-generic-invoice-demo-v1-openapi.json",
+   "openapi/_original/dsv-generic-labels-demo-v1-openapi.json",
+   "openapi/_original/dsv-generic-tracking-demo-v2-openapi.json",
+   "openapi/_original/dsv-generic-upload-demo-v1-openapi.json",
+   "openapi/_original/dsv-generic-visibilitydemo-v1-openapi.json",
+   "openapi/_original/dsv-warehousing-despatch-demo-v1-openapi.json",
+   "openapi/_original/dsv-warehousing-inventory-demo-v1-openapi.json",
+   "openapi/_original/dsv-warehousing-preadvice-demo-v1-openapi.json",
+   "openapi/_original/dsv-warehousing-productdata-demo-v1-openapi.json",
+   "openapi/_original/dsv-warehousing-status-demo-v1-openapi.json",
+   "openapi/_original/dsv-xpress-booking-v2-openapi.json",
+   "openapi/_original/dsv-xpress-comparator-v2-openapi.json",
+   "openapi/_original/dsv-xpress-tracking-v2-openapi.json"
+  ]
+ },
+ {
+  "slug": "easyship",
+  "specs": [
+   "openapi/_original/easyship-openapi.yml"
+  ]
+ },
+ {
+  "slug": "erply",
+  "specs": [
+   "openapi/_original/erply-assignments-openapi.json",
+   "openapi/_original/erply-cafa-openapi.json",
+   "openapi/_original/erply-pim-openapi.json",
+   "openapi/_original/erply-webhook-openapi.json"
+  ]
+ },
+ {
+  "slug": "extensiv",
+  "specs": [
+   "openapi/_original/extensiv-openapi.yml"
+  ]
+ },
+ {
+  "slug": "fulfil-io",
+  "specs": [
+   "openapi/_original/fulfil-io-openapi.yml"
+  ]
+ },
+ {
+  "slug": "gelato",
+  "specs": [
+   "openapi/_original/gelato-openapi.yml"
+  ]
+ },
+ {
+  "slug": "gopuff",
+  "specs": [
+   "openapi/_original/gopuff-fulfillment-openapi.yml"
+  ]
+ },
+ {
+  "slug": "handwrite-io",
+  "specs": [
+   "openapi/_original/handwrite-io-openapi.yml"
+  ]
+ },
+ {
+  "slug": "instacart",
+  "specs": [
+   "openapi/_original/instacart-catalog-api-openapi.yml",
+   "openapi/_original/instacart-connect-fulfillment-api-openapi.yml",
+   "openapi/_original/instacart-connect-post-checkout-api-openapi.yml",
+   "openapi/_original/instacart-developer-platform-api-openapi.yml",
+   "openapi/_original/instacart-llm-integration-openapi.yml"
+  ]
+ },
+ {
+  "slug": "instock",
+  "specs": [
+   "openapi/_original/instock-openapi.json"
+  ]
+ },
+ {
+  "slug": "invendor",
+  "specs": [
+   "openapi/_original/invendor-common-openapi-original.json",
+   "openapi/_original/invendor-reporting-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "karrio",
+  "specs": [
+   "openapi/_original/karrio-openapi.yml"
+  ]
+ },
+ {
+  "slug": "katana",
+  "specs": [
+   "openapi/_original/katana-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "kibo-commerce",
+  "specs": [
+   "openapi/_original/kibo-commerce-appdevelopement-openapi.yml",
+   "openapi/_original/kibo-commerce-audit-logs-openapi.yml",
+   "openapi/_original/kibo-commerce-catalog-admin-openapi.yml",
+   "openapi/_original/kibo-commerce-catalog-storefront-openapi.yml",
+   "openapi/_original/kibo-commerce-commerce-openapi.yml",
+   "openapi/_original/kibo-commerce-content-openapi.yml",
+   "openapi/_original/kibo-commerce-customer-openapi.yml",
+   "openapi/_original/kibo-commerce-dropship-openapi.yml",
+   "openapi/_original/kibo-commerce-entities-openapi.yml",
+   "openapi/_original/kibo-commerce-event-openapi.yml",
+   "openapi/_original/kibo-commerce-fulfillment-openapi.yml",
+   "openapi/_original/kibo-commerce-gdpr-openapi.yml",
+   "openapi/_original/kibo-commerce-importexport-openapi.yml",
+   "openapi/_original/kibo-commerce-inventory-openapi.yml",
+   "openapi/_original/kibo-commerce-location-admin-openapi.yml",
+   "openapi/_original/kibo-commerce-location-openapi.yml",
+   "openapi/_original/kibo-commerce-location-storefront-openapi.yml",
+   "openapi/_original/kibo-commerce-orderrouting-openapi.yml",
+   "openapi/_original/kibo-commerce-pricing-openapi.yml",
+   "openapi/_original/kibo-commerce-reservation-openapi.yml",
+   "openapi/_original/kibo-commerce-settings-openapi.yml",
+   "openapi/_original/kibo-commerce-shipping-admin-openapi.yml",
+   "openapi/_original/kibo-commerce-shipping-openapi.yml",
+   "openapi/_original/kibo-commerce-shipping-storefront-openapi.yml",
+   "openapi/_original/kibo-commerce-subscription-openapi.yml",
+   "openapi/_original/kibo-commerce-tenant-and-user-openapi.yml",
+   "openapi/_original/kibo-commerce-tenant-openapi.yml",
+   "openapi/_original/kibo-commerce-user-openapi.yml",
+   "openapi/_original/openapi_openapi_appdevelopement.json",
+   "openapi/_original/openapi_openapi_audit_logs.json",
+   "openapi/_original/openapi_openapi_catalog_admin.json",
+   "openapi/_original/openapi_openapi_catalog_storefront.json",
+   "openapi/_original/openapi_openapi_commerce.json",
+   "openapi/_original/openapi_openapi_content.json",
+   "openapi/_original/openapi_openapi_customer.json",
+   "openapi/_original/openapi_openapi_dropship.json",
+   "openapi/_original/openapi_openapi_entities.json",
+   "openapi/_original/openapi_openapi_event.json",
+   "openapi/_original/openapi_openapi_fulfillment.json",
+   "openapi/_original/openapi_openapi_gdpr.json",
+   "openapi/_original/openapi_openapi_graphql.json",
+   "openapi/_original/openapi_openapi_importexport.json",
+   "openapi/_original/openapi_openapi_inventory.json",
+   "openapi/_original/openapi_openapi_location.json",
+   "openapi/_original/openapi_openapi_location_admin.json",
+   "openapi/_original/openapi_openapi_location_storefront.json",
+   "openapi/_original/openapi_openapi_orderrouting.json",
+   "openapi/_original/openapi_openapi_pricing.json",
+   "openapi/_original/openapi_openapi_reservation.json",
+   "openapi/_original/openapi_openapi_settings.json",
+   "openapi/_original/openapi_openapi_shipping.json",
+   "openapi/_original/openapi_openapi_shipping_admin.json",
+   "openapi/_original/openapi_openapi_shipping_storefront.json",
+   "openapi/_original/openapi_openapi_subscription.json",
+   "openapi/_original/openapi_openapi_tenant.json",
+   "openapi/_original/openapi_openapi_tenant_and_user.json",
+   "openapi/_original/openapi_openapi_user.json"
+  ]
+ },
+ {
+  "slug": "komerce",
+  "specs": [
+   "openapi/_original/komerce-payment-openapi.yml",
+   "openapi/_original/komerce-qrisly-openapi.yml",
+   "openapi/_original/komerce-shipping-cost-openapi.yml",
+   "openapi/_original/komerce-shipping-delivery-openapi.yml"
+  ]
+ },
+ {
+  "slug": "kurly",
+  "specs": [
+   "openapi/_original/kurly-kls-auth-openapi.yml",
+   "openapi/_original/kurly-kls-delivery-agency-openapi.yml",
+   "openapi/_original/kurly-kls-delivery-tracking-openapi.yml",
+   "openapi/_original/kurly-kls-fulfillment-openapi.yml"
+  ]
+ },
+ {
+  "slug": "locus-sh",
+  "specs": [
+   "openapi/_original/locus-entities-openapi.yml",
+   "openapi/_original/locus-oms-openapi.yml",
+   "openapi/_original/locus-platform-openapi.yml"
+  ]
+ },
+ {
+  "slug": "logiless",
+  "specs": [
+   "openapi/_original/logiless-openapi.yml"
+  ]
+ },
+ {
+  "slug": "magaya",
+  "specs": [
+   "openapi/_original/magaya-openapi.yml"
+  ]
+ },
+ {
+  "slug": "metrobi",
+  "specs": [
+   "openapi/_original/metrobi-delivery-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "mile",
+  "specs": [
+   "openapi/_original/mile-partner-api-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "newstore",
+  "specs": [
+   "openapi/_original/newstore-api-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "ogc",
+  "specs": [
+   "openapi/_original/ogc-common-part1-1-0-openapi-3-0-api-common-part-1-1-0.yaml",
+   "openapi/_original/ogc-connected-systems-part1-1-0-openapi-openapi-connectedsystems-1.yaml",
+   "openapi/_original/ogc-connected-systems-part2-1-0-openapi-openapi-connectedsystems-2.yaml",
+   "openapi/_original/ogc-dggs-1-0-openapi-ogcapi-dggs-1-bundled.json",
+   "openapi/_original/ogc-dggs-1-0-openapi-ogcapi-dggs-1.yaml",
+   "openapi/_original/ogc-edr-1-0-openapi-edr-openapi.yaml",
+   "openapi/_original/ogc-edr-1-0-openapi-ogcapi-environmental-data-retrieval-1-bundled.json",
+   "openapi/_original/ogc-edr-1-1-openapi-ogcapi-environmental-data-retrieval-1-bundled.json",
+   "openapi/_original/ogc-edr-1-1-openapi-ogcapi-environmental-data-retrieval-1.yaml",
+   "openapi/_original/ogc-features-part1-1-0-openapi-ogcapi-features-1.yaml",
+   "openapi/_original/ogc-features-part2-1-0-openapi-ogcapi-features-2.yaml",
+   "openapi/_original/ogc-features-part3-1-0-openapi-ogcapi-features-3.yaml",
+   "openapi/_original/ogc-maps-part1-1-0-openapi-ogcapi-maps-1-bundled.json",
+   "openapi/_original/ogc-maps-part1-1-0-openapi-ogcapi-maps-1.yaml",
+   "openapi/_original/ogc-movingfeatures-part1-1-0-openapi-ogcapi-movingfeatures-1-bundled.json",
+   "openapi/_original/ogc-movingfeatures-part1-1-0-openapi-ogcapi-movingfeatures-1-bundled.yaml",
+   "openapi/_original/ogc-movingfeatures-part1-1-0-openapi-openapi-movingfeatures-1.yaml",
+   "openapi/_original/ogc-processes-part1-1-0-openapi-ogcapi-processes-1.yaml",
+   "openapi/_original/ogc-records-part1-1-0-openapi-ogcapi-records-1-building-blocks.yaml",
+   "openapi/_original/ogc-records-part1-1-0-openapi-ogcapi-records-1-example-all-in-one.yaml",
+   "openapi/_original/ogc-records-part1-1-0-openapi-ogcapi-records-1-example-ref-buildingblocks-bundle.yaml",
+   "openapi/_original/ogc-records-part1-1-0-openapi-ogcapi-records-1-example-ref-schema-repo.yaml",
+   "openapi/_original/ogc-tiles-part1-1-0-openapi-ogcapi-tiles-1-bundled.json",
+   "openapi/_original/ogc-tiles-part1-1-0-openapi-ogcapi-tiles-1.yaml"
+  ]
+ },
+ {
+  "slug": "ok-capsule",
+  "specs": [
+   "openapi/_original/ok-capsule-core-api-v2-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "omniful-inc",
+  "specs": [
+   "openapi/_original/omniful-inc-openapi.yml"
+  ]
+ },
+ {
+  "slug": "optoro",
+  "specs": [
+   "openapi/_original/optoro-asn-openapi-original.yml",
+   "openapi/_original/optoro-asn-openapi.yml",
+   "openapi/_original/optoro-auth-openapi-original.yml",
+   "openapi/_original/optoro-auth-openapi.yml",
+   "openapi/_original/optoro-catalogs-openapi-original.yml",
+   "openapi/_original/optoro-catalogs-openapi.yml",
+   "openapi/_original/optoro-disposition-update-openapi-original.yml",
+   "openapi/_original/optoro-disposition-update-openapi.yml",
+   "openapi/_original/optoro-drop-ship-openapi-original.yml",
+   "openapi/_original/optoro-drop-ship-openapi.yml",
+   "openapi/_original/optoro-drop-ship-webhooks-openapi-original.yml",
+   "openapi/_original/optoro-drop-ship-webhooks-openapi.yml",
+   "openapi/_original/optoro-exchange-orders-openapi-original.yml",
+   "openapi/_original/optoro-exchange-orders-openapi.yml",
+   "openapi/_original/optoro-external-bin-changes-openapi-original.yml",
+   "openapi/_original/optoro-external-bin-changes-openapi.yml",
+   "openapi/_original/optoro-facilities-openapi-original.yml",
+   "openapi/_original/optoro-facilities-openapi.yml",
+   "openapi/_original/optoro-final-disposition-openapi-original.yml",
+   "openapi/_original/optoro-final-disposition-openapi.yml",
+   "openapi/_original/optoro-forward-orders-openapi-original.yml",
+   "openapi/_original/optoro-forward-orders-openapi.yml",
+   "openapi/_original/optoro-inventory-receipt-openapi-original.yml",
+   "openapi/_original/optoro-inventory-receipt-openapi.yml",
+   "openapi/_original/optoro-outbound-asn-openapi-original.yml",
+   "openapi/_original/optoro-outbound-asn-openapi.yml",
+   "openapi/_original/optoro-returns-portal-orders-openapi-original.yml",
+   "openapi/_original/optoro-returns-portal-orders-openapi.yml",
+   "openapi/_original/optoro-rmas-openapi-original.yml",
+   "openapi/_original/optoro-rmas-openapi.yml",
+   "openapi/_original/optoro-rtv-openapi-original.yml",
+   "openapi/_original/optoro-rtv-openapi.yml",
+   "openapi/_original/optoro-variants-openapi-original.yml",
+   "openapi/_original/optoro-variants-openapi.yml"
+  ]
+ },
+ {
+  "slug": "orderdesk",
+  "specs": [
+   "openapi/_original/orderdesk-openapi.yml"
+  ]
+ },
+ {
+  "slug": "ordoro",
+  "specs": [
+   "openapi/_original/ordoro-ordoro-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "oto-global",
+  "specs": [
+   "openapi/_original/oto-global-openapi.yml"
+  ]
+ },
+ {
+  "slug": "paack",
+  "specs": [
+   "openapi/_original/paack-api-authentication-openapi.yml",
+   "openapi/_original/paack-api-authentication-readme-slices.json",
+   "openapi/_original/paack-coverage-api-readme-slices.json",
+   "openapi/_original/paack-labeler-api-readme-slices.json",
+   "openapi/_original/paack-orders-api-readme-slices.json",
+   "openapi/_original/paack-tracking-pull-api-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "packagex",
+  "specs": [
+   "openapi/_original/packagex-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "postex",
+  "specs": [
+   "openapi/_original/postex-order-openapi.yml"
+  ]
+ },
+ {
+  "slug": "primis",
+  "specs": [
+   "openapi/_original/primis-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "printful",
+  "specs": [
+   "openapi/_original/printful-openapi.yml"
+  ]
+ },
+ {
+  "slug": "printify",
+  "specs": [
+   "openapi/_original/printify-openapi.yml"
+  ]
+ },
+ {
+  "slug": "prodigi",
+  "specs": [
+   "openapi/_original/prodigi-openapi.yml"
+  ]
+ },
+ {
+  "slug": "scalablepress",
+  "specs": [
+   "openapi/_original/scalablepress-openapi.yml"
+  ]
+ },
+ {
+  "slug": "shipbob",
+  "specs": [
+   "openapi/_original/shipbob-openapi.json"
+  ]
+ },
+ {
+  "slug": "shipmonk",
+  "specs": [
+   "openapi/_original/shipmonk-openapi.json",
+   "openapi/_original/shipmonk-orders-openapi.yml",
+   "openapi/_original/shipmonk-products-openapi.yml",
+   "openapi/_original/shipmonk-receivings-openapi.yml",
+   "openapi/_original/shipmonk-returns-openapi.yml",
+   "openapi/_original/shipmonk-warehouses-openapi.yml"
+  ]
+ },
+ {
+  "slug": "shippit",
+  "specs": [
+   "openapi/_original/shippit-openapi.yml"
+  ]
+ },
+ {
+  "slug": "shipstation",
+  "specs": [
+   "openapi/_original/shipstation-v1-openapi.yml"
+  ]
+ },
+ {
+  "slug": "skydropx",
+  "specs": [
+   "openapi/_original/skydropx-openapi.yml"
+  ]
+ },
+ {
+  "slug": "snackmagic",
+  "specs": [
+   "openapi/_original/snackmagic-stadium-openapi.yml"
+  ]
+ },
+ {
+  "slug": "spod",
+  "specs": [
+   "openapi/_original/spod-openapi.yml"
+  ]
+ },
+ {
+  "slug": "spreadshirt",
+  "specs": [
+   "openapi/_original/spreadshirt-spreadconnect-openapi.json"
+  ]
+ },
+ {
+  "slug": "stannp",
+  "specs": [
+   "openapi/_original/stannp-direct-mail-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "teelaunch",
+  "specs": [
+   "openapi/_original/teelaunch-openapi.yml"
+  ]
+ },
+ {
+  "slug": "uber-direct",
+  "specs": [
+   "openapi/_original/uber-direct-openapi.yml"
+  ]
+ },
+ {
+  "slug": "uber-eats",
+  "specs": [
+   "openapi/_original/uber-direct-openapi.yml",
+   "openapi/_original/uber-eats-openapi.yml"
+  ]
+ },
+ {
+  "slug": "vantor",
+  "specs": [
+   "openapi/_original/admin-openapi.yml",
+   "openapi/_original/authentication-openapi.yml",
+   "openapi/_original/discovery-openapi.yml",
+   "openapi/_original/maxar-authentication-api-openapi.yml",
+   "openapi/_original/maxar-discovery-api-openapi.yml",
+   "openapi/_original/maxar-ordering-api-openapi.yml",
+   "openapi/_original/maxar-technologies-accounts-api-openapi.yml",
+   "openapi/_original/maxar-technologies-api-keys-api-openapi.yml",
+   "openapi/_original/maxar-technologies-collections-api-openapi.yml",
+   "openapi/_original/maxar-technologies-credits-api-openapi.yml",
+   "openapi/_original/maxar-technologies-deliveries-api-openapi.yml",
+   "openapi/_original/maxar-technologies-estimates-api-openapi.yml",
+   "openapi/_original/maxar-technologies-events-api-openapi.yml",
+   "openapi/_original/maxar-technologies-feasibility-api-openapi.yml",
+   "openapi/_original/maxar-technologies-image-api-openapi.yml",
+   "openapi/_original/maxar-technologies-introspection-api-openapi.yml",
+   "openapi/_original/maxar-technologies-items-api-openapi.yml",
+   "openapi/_original/maxar-technologies-monitors-api-openapi.yml",
+   "openapi/_original/maxar-technologies-orders-api-openapi.yml",
+   "openapi/_original/maxar-technologies-search-api-openapi.yml",
+   "openapi/_original/maxar-technologies-subscriptions-api-openapi.yml",
+   "openapi/_original/maxar-technologies-tasks-api-openapi.yml",
+   "openapi/_original/maxar-technologies-tokens-api-openapi.yml",
+   "openapi/_original/maxar-technologies-users-api-openapi.yml",
+   "openapi/_original/maxar-technologies-wfs-api-openapi.yml",
+   "openapi/_original/maxar-technologies-wms-api-openapi.yml",
+   "openapi/_original/maxar-technologies-wmts-api-openapi.yml",
+   "openapi/_original/monitoring-openapi.yml",
+   "openapi/_original/ordering-openapi.yml",
+   "openapi/_original/streaming-openapi.yml",
+   "openapi/_original/tasking-openapi.yml"
+  ]
+ },
+ {
+  "slug": "vinculum",
+  "specs": [
+   "openapi/_original/vinculum-eretail-openapi-original.yml",
+   "openapi/_original/vinculum-sellerpanel-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "walmart",
+  "specs": [
+   "openapi/_original/walmart-dropship-vendor-costs-openapi-original.yml",
+   "openapi/_original/walmart-dropship-vendor-inventory-openapi-original.yml",
+   "openapi/_original/walmart-dropship-vendor-items-openapi-original.yml",
+   "openapi/_original/walmart-dropship-vendor-lag-time-openapi-original.yml",
+   "openapi/_original/walmart-dropship-vendor-on-request-reports-openapi-original.yml",
+   "openapi/_original/walmart-dropship-vendor-orders-openapi-original.yml",
+   "openapi/_original/walmart-dropship-vendor-pre-generated-reports-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-authentication-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-feeds-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-fulfillment-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-insights-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-inventory-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-items-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-lag-time-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-notifications-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-on-request-reports-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-orders-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-prices-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-promotions-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-recommendations-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-reports-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-returns-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-reviews-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-rules-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-settings-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-shipping-openapi-original.yml",
+   "openapi/_original/walmart-marketplace-utilities-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "whiplash",
+  "specs": [
+   "openapi/_original/whiplash-openapi.json"
+  ]
+ },
+ {
+  "slug": "whiplash-merchandising",
+  "specs": [
+   "openapi/_original/whiplash-merchandising-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "wish",
+  "specs": [
+   "openapi/_original/wish-marketplace-v3-openapi.json"
+  ]
+ },
+ {
+  "slug": "xentral",
+  "specs": [
+   "openapi/_original/xentral-api-openapi-original.json",
+   "openapi/_original/xentral-documents-api-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "zalando",
+  "specs": [
+   "openapi/_original/zalando-article-requirements-openapi.yml",
+   "openapi/_original/zalando-logistic-centers-openapi.yml",
+   "openapi/_original/zalando-offer-blocking-openapi.yml",
+   "openapi/_original/zalando-orders-openapi.yml",
+   "openapi/_original/zalando-price-reporting-openapi.yml",
+   "openapi/_original/zalando-prices-openapi.yml",
+   "openapi/_original/zalando-product-attributes-openapi.yml",
+   "openapi/_original/zalando-products-openapi.yml",
+   "openapi/_original/zalando-sales-channels-openapi.yml",
+   "openapi/_original/zalando-stocks-openapi.yml",
+   "openapi/_original/zalando-zfs-cross-border-movements-openapi.yml",
+   "openapi/_original/zalando-zfs-stock-movements-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zoho-inventory",
+  "specs": [
+   "openapi/_original/batches.yml",
+   "openapi/_original/bills.yml",
+   "openapi/_original/compositeitems.yml",
+   "openapi/_original/contact-persons.yml",
+   "openapi/_original/contacts.yml",
+   "openapi/_original/credit-notes.yml",
+   "openapi/_original/currency.yml",
+   "openapi/_original/customer-payments.yml",
+   "openapi/_original/delivery-challans.yml",
+   "openapi/_original/inventoryadjustments.yml",
+   "openapi/_original/invoices.yml",
+   "openapi/_original/itemgroups.yml",
+   "openapi/_original/items.yml",
+   "openapi/_original/landedcosts.yml",
+   "openapi/_original/locations.yml",
+   "openapi/_original/moveorders.yml",
+   "openapi/_original/organizations.yml",
+   "openapi/_original/packages.yml",
+   "openapi/_original/picklists.yml",
+   "openapi/_original/pricelists.yml",
+   "openapi/_original/purchaseorders.yml",
+   "openapi/_original/purchasereceives.yml",
+   "openapi/_original/putaways.yml",
+   "openapi/_original/replenishment.yml",
+   "openapi/_original/reporting-tags.yml",
+   "openapi/_original/retainer-invoices.yml",
+   "openapi/_original/salesorders.yml",
+   "openapi/_original/salesreturns.yml",
+   "openapi/_original/serialnumbers.yml",
+   "openapi/_original/shipmentorders.yml",
+   "openapi/_original/storagelocations.yml",
+   "openapi/_original/tasks.yml",
+   "openapi/_original/taxes.yml",
+   "openapi/_original/transferorders.yml",
+   "openapi/_original/unit_of_measurement.yml",
+   "openapi/_original/users.yml",
+   "openapi/_original/vendor-credits.yml"
+  ]
+ }
+]

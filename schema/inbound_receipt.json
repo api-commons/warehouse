@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/warehouse/main/schema/inbound_receipt.json",
+  "title": "Inbound Receipt",
+  "description": "The common inbound_receipt in Warehouse Management, distilled from 4 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 1.0,
+      "x-commons-providers": 4,
+      "x-commons-spellings": [
+        "status"
+      ]
+    }
+  },
+  "required": [],
+  "x-commons": {
+    "context": "warehouse",
+    "concept": "inbound_receipt",
+    "providers": 4,
+    "generated": "2026-11-11",
+    "version": "0.1.0-draft.20261111",
+    "status": "draft"
+  }
+}

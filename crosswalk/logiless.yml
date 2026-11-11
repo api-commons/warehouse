@@ -1,0 +1,12 @@
+provider: logiless
+apis_io: https://apis.io/providers/logiless/
+context: warehouse
+generated: '2026-11-11'
+concepts:
+  warehouse:
+    path_segment:
+    - warehouses
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/logiless-openapi.yml#GET /merchant/{merchant_id}/warehouses

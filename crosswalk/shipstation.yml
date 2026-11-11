@@ -1,0 +1,17 @@
+provider: shipstation
+apis_io: https://apis.io/providers/shipstation/
+context: warehouse
+generated: '2026-11-11'
+concepts:
+  warehouse:
+    path_segment:
+    - warehouses
+    properties:
+      name: warehouseName
+    core_coverage: 0.333
+    evidence:
+    - openapi/_original/shipstation-v1-openapi.yml#DELETE /warehouses/{warehouseId}
+    - openapi/_original/shipstation-v1-openapi.yml#GET /warehouses
+    - openapi/_original/shipstation-v1-openapi.yml#GET /warehouses/{warehouseId}
+    - openapi/_original/shipstation-v1-openapi.yml#POST /warehouses
+    - openapi/_original/shipstation-v1-openapi.yml#PUT /warehouses/{warehouseId}

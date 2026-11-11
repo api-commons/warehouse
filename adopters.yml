@@ -1,0 +1,70 @@
+context: warehouse
+generated: '2026-11-11'
+adopters:
+- provider: boxc
+  apis_io: https://apis.io/providers/boxc/
+  crosswalk: crosswalk/boxc.yml
+  concepts:
+  - warehouse
+- provider: byrd
+  apis_io: https://apis.io/providers/byrd/
+  crosswalk: crosswalk/byrd.yml
+  concepts:
+  - warehouse
+- provider: cart-com
+  apis_io: https://apis.io/providers/cart-com/
+  crosswalk: crosswalk/cart-com.yml
+  concepts:
+  - warehouse
+- provider: extensiv
+  apis_io: https://apis.io/providers/extensiv/
+  crosswalk: crosswalk/extensiv.yml
+  concepts:
+  - warehouse
+- provider: logiless
+  apis_io: https://apis.io/providers/logiless/
+  crosswalk: crosswalk/logiless.yml
+  concepts:
+  - warehouse
+- provider: optoro
+  apis_io: https://apis.io/providers/optoro/
+  crosswalk: crosswalk/optoro.yml
+  concepts:
+  - inbound_receipt
+  - warehouse
+- provider: ordoro
+  apis_io: https://apis.io/providers/ordoro/
+  crosswalk: crosswalk/ordoro.yml
+  concepts:
+  - warehouse
+- provider: shipbob
+  apis_io: https://apis.io/providers/shipbob/
+  crosswalk: crosswalk/shipbob.yml
+  concepts:
+  - inbound_receipt
+- provider: shipmonk
+  apis_io: https://apis.io/providers/shipmonk/
+  crosswalk: crosswalk/shipmonk.yml
+  concepts:
+  - inbound_receipt
+  - warehouse
+- provider: shipstation
+  apis_io: https://apis.io/providers/shipstation/
+  crosswalk: crosswalk/shipstation.yml
+  concepts:
+  - warehouse
+- provider: walmart
+  apis_io: https://apis.io/providers/walmart/
+  crosswalk: crosswalk/walmart.yml
+  concepts:
+  - inbound_receipt
+- provider: wish
+  apis_io: https://apis.io/providers/wish/
+  crosswalk: crosswalk/wish.yml
+  concepts:
+  - warehouse
+- provider: xentral
+  apis_io: https://apis.io/providers/xentral/
+  crosswalk: crosswalk/xentral.yml
+  concepts:
+  - warehouse

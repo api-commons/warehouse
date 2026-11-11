@@ -1,0 +1,13 @@
+provider: extensiv
+apis_io: https://apis.io/providers/extensiv/
+context: warehouse
+generated: '2026-11-11'
+concepts:
+  warehouse:
+    path_segment:
+    - facilities
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/3plcentral-openapi.yml#GET /inventory/facilities
+    - openapi/_original/extensiv-openapi.yml#GET /facilities

@@ -1,0 +1,32 @@
+provider: ordoro
+apis_io: https://apis.io/providers/ordoro/
+context: warehouse
+generated: '2026-11-11'
+concepts:
+  warehouse:
+    path_segment:
+    - warehouse
+    properties:
+      name: name
+      id: id
+      address:
+      - address
+      - shipping_address
+      created_at:
+      - created
+      - created_date
+      updated_at:
+      - updated
+      - updated_date
+      city: city
+      country: country
+      status:
+      - state
+      - status
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/ordoro-ordoro-api-openapi.yml#GET /cart/{cart_id}/warehouse/
+    - openapi/_original/ordoro-ordoro-api-openapi.yml#GET /warehouse/
+    - openapi/_original/ordoro-ordoro-api-openapi.yml#GET /warehouse/{warehouse_id}/
+    - openapi/_original/ordoro-ordoro-api-openapi.yml#POST /warehouse/
+    - openapi/_original/ordoro-ordoro-api-openapi.yml#PUT /product/{sku}/warehouse/{warehouse_id}/

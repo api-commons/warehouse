@@ -1,0 +1,165 @@
+openapi: 3.1.0
+info:
+  title: Warehouse Management (API Commons)
+  version: 0.1.0-draft.20261111
+  description: 'The common Warehouse Management interface, distilled from the harvested OpenAPI of 75 providers
+    in the APIs.io catalog. Not a product: no one serves this API. It is the shape the market already shares, measured,
+    so that providers, agents and integrators can map to one vocabulary. See profile.yml.'
+  license:
+    name: CC BY-NC-SA 4.0
+    url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+paths:
+  /warehouses:
+    get:
+      operationId: listWarehouses
+      summary: List warehouses
+      tags:
+      - Warehouses
+      x-commons-tier: core
+      x-commons-share: 0.909
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id001
+                  $ref: '#/components/schemas/Warehouse'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+    post:
+      operationId: createWarehouse
+      summary: Create a warehouse
+      tags:
+      - Warehouses
+      x-commons-tier: core
+      x-commons-share: 0.545
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+  /warehouses/{warehouse_id}:
+    parameters:
+    - $ref: '#/components/parameters/warehouse_id'
+    patch:
+      operationId: updateWarehouse
+      summary: Update a warehouse
+      tags:
+      - Warehouses
+      x-commons-tier: extended
+      x-commons-share: 0.455
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+    get:
+      operationId: getWarehouse
+      summary: Get a warehouse
+      tags:
+      - Warehouses
+      x-commons-tier: extended
+      x-commons-share: 0.364
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+    delete:
+      operationId: deleteWarehouse
+      summary: Delete a warehouse
+      tags:
+      - Warehouses
+      x-commons-tier: extended
+      x-commons-share: 0.273
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+  /inbound-receipts:
+    post:
+      operationId: createInboundReceipt
+      summary: Create an inbound receipt
+      tags:
+      - Inbound Receipts
+      x-commons-tier: core
+      x-commons-share: 1.0
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: &id002
+                $ref: '#/components/schemas/InboundReceipt'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id002
+    get:
+      operationId: listInboundReceipts
+      summary: List inbound receipts
+      tags:
+      - Inbound Receipts
+      x-commons-tier: core
+      x-commons-share: 0.75
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: *id002
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+components:
+  schemas:
+    Warehouse:
+      $ref: ./schema/warehouse.json
+    InboundReceipt:
+      $ref: ./schema/inbound_receipt.json
+  parameters:
+    warehouse_id:
+      name: warehouse_id
+      in: path
+      required: true
+      schema:
+        type: string
+    inbound_receipt_id:
+      name: inbound_receipt_id
+      in: path
+      required: true
+      schema:
+        type: string

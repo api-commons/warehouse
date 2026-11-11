@@ -1,0 +1,252 @@
+context: warehouse
+name: Warehouse Management
+generated: '2026-11-11'
+version: 0.1.0-draft.20261111
+status: draft
+cohort:
+  tags:
+  - Warehouse Management
+  - WMS
+  - 3PL
+  - Fulfillment
+  - Inventory Management
+  - Warehousing
+  - Order Fulfillment
+  providers_with_harvested_openapi: 75
+thresholds:
+  core: 0.5
+  extended: 0.2
+  min_providers: 3
+excluded: {}
+duplicates:
+  extensiv:
+  - 3plcentral
+shared_specs: {}
+concepts:
+  warehouse:
+    segments_seen:
+      warehouses: 8
+      facilities: 2
+      warehouse: 1
+    providers_exposing: 11
+    providers_with_readable_schema: 10
+    operations:
+    - operation: GET collection
+      providers: 10
+      share: 0.909
+      tier: core
+    - operation: POST collection
+      providers: 6
+      share: 0.545
+      tier: core
+    - operation: UPDATE item
+      providers: 5
+      share: 0.455
+      tier: extended
+    - operation: GET item
+      providers: 4
+      share: 0.364
+      tier: extended
+    - operation: DELETE item
+      providers: 3
+      share: 0.273
+      tier: extended
+    - operation: UPDATE collection
+      providers: 1
+      share: 0.091
+      tier: long-tail
+    properties:
+    - name: name
+      tier: core
+      providers: 8
+      share: 0.8
+      type: string
+      spellings:
+      - name
+      - displayName
+      - warehouseName
+    - name: id
+      tier: core
+      providers: 7
+      share: 0.7
+      type: string
+      spellings:
+      - id
+    - name: address
+      tier: core
+      providers: 6
+      share: 0.6
+      type: object
+      spellings:
+      - address
+      - shipping_address
+    - name: created_at
+      tier: extended
+      providers: 4
+      share: 0.4
+      type: string
+      spellings:
+      - created_at
+      - createdAt
+      - created
+      - created_date
+    - name: updated_at
+      tier: extended
+      providers: 4
+      share: 0.4
+      type: string
+      spellings:
+      - updated_at
+      - updatedAt
+      - updated
+      - updated_date
+    - name: city
+      tier: extended
+      providers: 3
+      share: 0.3
+      type: string
+      spellings:
+      - city
+    - name: code
+      tier: extended
+      providers: 3
+      share: 0.3
+      type: string
+      spellings:
+      - identifier
+      - code
+    - name: country
+      tier: extended
+      providers: 3
+      share: 0.3
+      type: string
+      spellings:
+      - country
+    - name: status
+      tier: extended
+      providers: 3
+      share: 0.3
+      type: string
+      spellings:
+      - state
+      - status
+    long_tail_count: 124
+    long_tail_sample:
+    - country_code
+    - email
+    - is_default
+    - warehouse_id
+    - account_number
+    - additional_cart_info
+    - address_line_1
+    - address_line_2
+    - allocation_status
+    - alternate_ship_from_address
+    - archive_date
+    - asin
+    - audit_label
+    - available_on_hand
+    - barcode
+    - batch
+    - batch_reference_id
+    - billing_address
+    - cancelled_date
+    - cart
+    - cart_id
+    - carts
+    - category
+    - comments
+    - company_id
+    - cost
+    - country_of_origin
+    - create_date
+    - customer_text
+    - customs_description
+    - default_image_id
+    - deliver_by_date
+    - delivery_address
+    - designation
+    - destination_countries
+    - details
+    - disallowed_shipment_options
+    - dropshipping_info
+    - embedded
+    - enabled
+  inbound_receipt:
+    segments_seen:
+      receiving: 2
+      asns: 1
+      inbound-shipments: 1
+    providers_exposing: 4
+    providers_with_readable_schema: 4
+    operations:
+    - operation: POST collection
+      providers: 4
+      share: 1.0
+      tier: core
+    - operation: GET collection
+      providers: 3
+      share: 0.75
+      tier: core
+    - operation: DELETE item
+      providers: 1
+      share: 0.25
+      tier: long-tail
+    - operation: GET item
+      providers: 1
+      share: 0.25
+      tier: long-tail
+    - operation: UPDATE item
+      providers: 1
+      share: 0.25
+      tier: long-tail
+    properties:
+    - name: status
+      tier: core
+      providers: 4
+      share: 1.0
+      type: string
+      spellings:
+      - status
+    long_tail_count: 73
+    long_tail_sample:
+    - cartons
+    - category
+    - created_at
+    - description
+    - id
+    - actual_delivery_date
+    - add_on_services
+    - arrived_at
+    - asn_number
+    - asn_type
+    - bol_number
+    - box_labels_uri
+    - box_packaging_type
+    - boxes
+    - carrier
+    - carrier_name
+    - causes
+    - code
+    - custom_data
+    - details_type
+    - dimensions
+    - estimated_delivery
+    - expected_arrival_date
+    - expected_delivery_date
+    - external_sync_timestamp
+    - field
+    - from
+    - fulfillment_center
+    - handling_unit_quantity
+    - handling_unit_type
+    - inbound_order_id
+    - info
+    - inner_pack_qty
+    - insert_date
+    - inventory_quantities
+    - item_desc
+    - item_nbr
+    - item_qty
+    - item_weight_qty
+    - last_updated_date

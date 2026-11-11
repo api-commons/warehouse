@@ -1,0 +1,1267 @@
+{
+ "cohort_size": 75,
+ "unreadable": [],
+ "concepts": {
+  "warehouse": {
+   "3plcentral": {
+    "segments": [
+     "facilities"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "TotalResults": "integer",
+     "ResourceList": "array",
+     "_links": "object"
+    },
+    "evidence": [
+     "openapi/_original/3plcentral-openapi.yml#GET /inventory/facilities"
+    ]
+   },
+   "boxc": {
+    "segments": [
+     "warehouses"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "address": "string",
+     "country": "string",
+     "entry_point": "string",
+     "id": "string",
+     "language": "string",
+     "language_code": "string",
+     "name": "string",
+     "free_days": "integer",
+     "large_cost": "decimal",
+     "medium_cost": "decimal",
+     "small_cost": "decimal"
+    },
+    "evidence": [
+     "openapi/_original/boxc-openapi-original.yml#GET /warehouses",
+     "openapi/_original/boxc-openapi-original.yml#GET /warehouses/{id}"
+    ]
+   },
+   "byrd": {
+    "segments": [
+     "warehouses"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "id": "string",
+     "createdAt": "string",
+     "updatedAt": "string",
+     "code": "string",
+     "displayName": "string",
+     "name": "string",
+     "legalName": "string",
+     "countryCode": "string",
+     "deliveryAddress": null,
+     "disallowedShipmentOptions": "string",
+     "openingHours": "string",
+     "page": "integer",
+     "per_page": "integer",
+     "page_count": "integer",
+     "total_count": "integer"
+    },
+    "evidence": [
+     "openapi/_original/byrd-apis-openapi.yml#GET /v2/warehouse/warehouses",
+     "openapi/_original/byrd-apis-openapi.yml#GET /v2/warehouse/warehouses/{warehouse_id}"
+    ]
+   },
+   "cart-com": {
+    "segments": [
+     "warehouses"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "id": "integer",
+     "name": "string",
+     "city": "string",
+     "state": "string",
+     "country": "string",
+     "postal_code": "string",
+     "is_default": "boolean",
+     "email": "string",
+     "address_line_1": "string",
+     "address_line_2": "string",
+     "account_number": "string",
+     "updated_at": "string",
+     "created_at": "string"
+    },
+    "evidence": [
+     "openapi/_original/cart-com-online-store-openapi-original.yml#DELETE /warehouses/{id}",
+     "openapi/_original/cart-com-online-store-openapi-original.yml#GET /warehouses",
+     "openapi/_original/cart-com-online-store-openapi-original.yml#POST /warehouses",
+     "openapi/_original/cart-com-online-store-openapi-original.yml#PUT /warehouses/{id}"
+    ]
+   },
+   "extensiv": {
+    "segments": [
+     "facilities"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "_embedded": "object"
+    },
+    "evidence": [
+     "openapi/_original/extensiv-openapi.yml#GET /facilities"
+    ]
+   },
+   "logiless": {
+    "segments": [
+     "warehouses"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {},
+    "evidence": [
+     "openapi/_original/logiless-openapi.yml#GET /merchant/{merchant_id}/warehouses"
+    ]
+   },
+   "optoro": {
+    "segments": [
+     "facilities"
+    ],
+    "operations": [
+     "POST collection"
+    ],
+    "properties": {
+     "group_identifier": "string",
+     "identifier": "string",
+     "name": "string",
+     "address": "object",
+     "details": "object",
+     "latitude": "number",
+     "longitude": "number",
+     "facility_type": "string",
+     "created_at": "string",
+     "updated_at": "string"
+    },
+    "evidence": [
+     "openapi/_original/optoro-facilities-openapi-original.yml#POST /facilities",
+     "openapi/_original/optoro-facilities-openapi.yml#POST /facilities"
+    ]
+   },
+   "ordoro": {
+    "segments": [
+     "warehouse"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT collection",
+     "PUT item"
+    ],
+    "properties": {
+     "type": "string",
+     "cost": "number",
+     "id": "integer",
+     "company_id": "integer",
+     "name": "string",
+     "sku": "string",
+     "taxable": "string",
+     "weight": "number",
+     "length": "integer",
+     "width": "integer",
+     "height": "integer",
+     "price": "number",
+     "customer_text": null,
+     "internal_notes": null,
+     "total_on_hand": "number",
+     "category": "string",
+     "is_kit_parent": "boolean",
+     "archive_date": null,
+     "hs_code": null,
+     "country_of_origin": null,
+     "customs_description": null,
+     "created": "string",
+     "updated": "string",
+     "upc": null,
+     "asin": null,
+     "image_url": null,
+     "default_image_id": null,
+     "_link": null,
+     "tags": "array",
+     "total_committed": "number",
+     "total_available": "number",
+     "total_allocated": "number",
+     "total_unallocated": "number",
+     "po_total_committed": "number",
+     "fulfillment_type": null,
+     "warehouses": "array",
+     "kit_components": "array",
+     "carts": "array",
+     "suppliers": "array",
+     "to_be_shipped": "number",
+     "available_on_hand": "number",
+     "on_pos": "number",
+     "on_hand": "number",
+     "low_stock_threshold": null,
+     "out_of_stock_threshold": null,
+     "location_in_warehouse": "string",
+     "address": "object",
+     "cart": null,
+     "is_configured_for_shipping": "boolean",
+     "is_default_location": "boolean",
+     "street1": null,
+     "street2": null,
+     "city": null,
+     "state": null,
+     "zip": null,
+     "country": null,
+     "email": null,
+     "phone": null,
+     "cart_id": "integer",
+     "order_number": "string",
+     "barcode": "string",
+     "order_placed_date": "string",
+     "created_date": "string",
+     "updated_date": "string",
+     "cancelled_date": null,
+     "obscured_date": null,
+     "status": "string",
+     "shippability": "string",
+     "shipping_address": "object",
+     "billing_address": "object",
+     "alternate_ship_from_address": null,
+     "label_infos": "array",
+     "lines": "array",
+     "notes_from_customer": null,
+     "requested_shipping_method": null,
+     "deliver_by_date": null,
+     "ship_by_date": null,
+     "sales_channel": "object",
+     "warehouse": "object",
+     "shipping_info": "object",
+     "return_shipping_info": "object",
+     "dropshipping_info": "object",
+     "comments": "array",
+     "financial": "object",
+     "link": "string",
+     "additional_cart_info": "object",
+     "is_order_parent": "boolean",
+     "parent_order_number": null,
+     "sibling_order_numbers": "array",
+     "audit_label": "array",
+     "return_order_reference_ids": "array",
+     "similar_open_addresses_count": "integer",
+     "allocation_status": "string",
+     "batch_reference_id": null,
+     "batch": "object",
+     "has_revision": "boolean",
+     "revision_locked_fields": "array",
+     "warehouse_id": "integer",
+     "skip_cache": "boolean"
+    },
+    "evidence": [
+     "openapi/_original/ordoro-ordoro-api-openapi.yml#GET /cart/{cart_id}/warehouse/",
+     "openapi/_original/ordoro-ordoro-api-openapi.yml#GET /warehouse/",
+     "openapi/_original/ordoro-ordoro-api-openapi.yml#GET /warehouse/{warehouse_id}/",
+     "openapi/_original/ordoro-ordoro-api-openapi.yml#POST /warehouse/",
+     "openapi/_original/ordoro-ordoro-api-openapi.yml#PUT /product/{sku}/warehouse/{warehouse_id}/",
+     "openapi/_original/ordoro-ordoro-api-openapi.yml#PUT /v3/order/{order_number}/warehouse",
+     "openapi/_original/ordoro-ordoro-api-openapi.yml#PUT /warehouse/{warehouse_id}/"
+    ]
+   },
+   "shipmonk": {
+    "segments": [
+     "warehouses"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "id": "integer",
+     "identifier": "string",
+     "name": "string",
+     "timezone": "string",
+     "warehouse_wms_type": "string",
+     "enabled": "boolean",
+     "address": "object"
+    },
+    "evidence": [
+     "openapi/_original/shipmonk-openapi.json#GET /v1/integrations/warehouses",
+     "openapi/_original/shipmonk-warehouses-openapi.yml#GET /v1/integrations/warehouses"
+    ]
+   },
+   "shipstation": {
+    "segments": [
+     "warehouses"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "warehouseId": "integer",
+     "warehouseName": "string",
+     "originAddress": "object",
+     "returnAddress": "object",
+     "createDate": "string",
+     "isDefault": "boolean"
+    },
+    "evidence": [
+     "openapi/_original/shipstation-v1-openapi.yml#DELETE /warehouses/{warehouseId}",
+     "openapi/_original/shipstation-v1-openapi.yml#GET /warehouses",
+     "openapi/_original/shipstation-v1-openapi.yml#GET /warehouses/{warehouseId}",
+     "openapi/_original/shipstation-v1-openapi.yml#POST /warehouses",
+     "openapi/_original/shipstation-v1-openapi.yml#PUT /warehouses/{warehouseId}"
+    ]
+   },
+   "wish": {
+    "segments": [
+     "warehouses"
+    ],
+    "operations": [
+     "GET collection",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "shipping_type": "string",
+     "id": "string",
+     "name": "string",
+     "address": "object",
+     "destination_countries": "array",
+     "city": "string",
+     "ship_to_name": "string",
+     "street_address2": "string",
+     "street_address1": "string",
+     "zipcode": "string",
+     "state": "string",
+     "country_code": "string"
+    },
+    "evidence": [
+     "openapi/_original/wish-marketplace-v3-openapi.json#GET /api/v3/merchant/warehouses",
+     "openapi/_original/wish-marketplace-v3-openapi.json#POST /api/v3/merchant/warehouses",
+     "openapi/_original/wish-marketplace-v3-openapi.json#PUT /api/v3/merchant/warehouses/{id}"
+    ]
+   },
+   "xentral": {
+    "segments": [
+     "warehouses"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "PATCH item",
+     "POST collection"
+    ],
+    "properties": {
+     "id": "string",
+     "project": "object",
+     "designation": "string",
+     "address": "object"
+    },
+    "evidence": [
+     "openapi/_original/xentral-api-openapi-original.json#DELETE /api/v1/warehouses/{id}",
+     "openapi/_original/xentral-api-openapi-original.json#GET /api/v1/warehouses",
+     "openapi/_original/xentral-api-openapi-original.json#PATCH /api/v1/warehouses/{id}",
+     "openapi/_original/xentral-api-openapi-original.json#POST /api/v1/warehouses"
+    ]
+   }
+  },
+  "inbound_receipt": {
+   "optoro": {
+    "segments": [
+     "asns"
+    ],
+    "operations": [
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "program_identifier": "string",
+     "from": "object",
+     "to": "object",
+     "asn_number": "string",
+     "shipment_identifier": "string",
+     "tracking_number": "string",
+     "carrier": "string",
+     "ship_date": "string",
+     "status": "string",
+     "details_type": "string",
+     "asn_type": "string",
+     "cartons": "array",
+     "messagetimestamp": "string"
+    },
+    "evidence": [
+     "openapi/_original/optoro-asn-openapi-original.yml#POST /asns",
+     "openapi/_original/optoro-asn-openapi-original.yml#PUT /asns/{asn-number}",
+     "openapi/_original/optoro-asn-openapi.yml#POST /asns",
+     "openapi/_original/optoro-asn-openapi.yml#PUT /asns/{asn-number}"
+    ]
+   },
+   "shipbob": {
+    "segments": [
+     "receiving"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "POST collection"
+    ],
+    "properties": {
+     "box_labels_uri": [
+      "string",
+      "null"
+     ],
+     "box_packaging_type": "string",
+     "expected_arrival_date": "string",
+     "external_sync_timestamp": [
+      "string",
+      "null"
+     ],
+     "fulfillment_center": "object",
+     "id": "integer",
+     "insert_date": "string",
+     "inventory_quantities": [
+      "array",
+      "null"
+     ],
+     "last_updated_date": "string",
+     "package_type": "string",
+     "purchase_order_number": [
+      "string",
+      "null"
+     ],
+     "status": "string",
+     "status_history": [
+      "array",
+      "null"
+     ],
+     "boxes": [
+      "array",
+      "null"
+     ]
+    },
+    "evidence": [
+     "openapi/_original/shipbob-openapi.json#GET /2026-01/receiving",
+     "openapi/_original/shipbob-openapi.json#GET /2026-01/receiving/{id}",
+     "openapi/_original/shipbob-openapi.json#POST /2026-01/receiving"
+    ]
+   },
+   "shipmonk": {
+    "segments": [
+     "receiving"
+    ],
+    "operations": [
+     "GET collection",
+     "POST collection"
+    ],
+    "properties": {
+     "id": "integer",
+     "warehouse": "string",
+     "receiving_key": [
+      "string",
+      "null"
+     ],
+     "asn": "string",
+     "bol_number": null,
+     "supplier_name": "string",
+     "handling_unit_type": [
+      "string"
+     ],
+     "handling_unit_quantity": "integer",
+     "estimated_delivery": "string",
+     "description": [
+      "string",
+      "null"
+     ],
+     "status": [
+      "string"
+     ],
+     "created_at": "string",
+     "updated_at": "string",
+     "arrived_at": [
+      "string",
+      "null"
+     ],
+     "received_at": [
+      "string",
+      "null"
+     ],
+     "items": "array",
+     "receiving_lines": "array",
+     "custom_data": "array",
+     "cartons": "array",
+     "pallets": "array",
+     "message": "string",
+     "category": null,
+     "tracking_numbers": [
+      "array",
+      "null"
+     ]
+    },
+    "evidence": [
+     "openapi/_original/shipmonk-openapi.json#GET /v1/integrations/receiving",
+     "openapi/_original/shipmonk-openapi.json#POST /v1/integrations/receiving",
+     "openapi/_original/shipmonk-receivings-openapi.yml#GET /v1/integrations/receiving",
+     "openapi/_original/shipmonk-receivings-openapi.yml#POST /v1/integrations/receiving"
+    ]
+   },
+   "walmart": {
+    "segments": [
+     "inbound-shipments"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "POST collection"
+    ],
+    "properties": {
+     "inboundOrderId": "string",
+     "shipmentId": "string",
+     "shipToAddress": "object",
+     "returnAddress": "object",
+     "status": "string",
+     "createdDate": "string",
+     "shipmentUnits": "integer",
+     "receivedUnits": "integer",
+     "expectedDeliveryDate": "string",
+     "updatedExpectedDeliveryDate": "string",
+     "actualDeliveryDate": "string",
+     "trackingNo": "array",
+     "carrierName": "string",
+     "shipmentItems": "array",
+     "productId": "string",
+     "productType": "string",
+     "sku": "string",
+     "itemDesc": "string",
+     "itemQty": "integer",
+     "vendorPackQty": "integer",
+     "innerPackQty": "integer",
+     "addOnServices": "array",
+     "itemNbr": "integer",
+     "dimensions": "array",
+     "itemWeightQty": "number",
+     "nonSortItem": "boolean",
+     "shipNode": "string",
+     "code": "string",
+     "field": "string",
+     "description": "string",
+     "info": "string",
+     "severity": "string",
+     "category": "string",
+     "causes": "array"
+    },
+    "evidence": [
+     "openapi/_original/walmart-marketplace-fulfillment-openapi-original.yml#DELETE /v3/fulfillment/inbound-shipments/{inboundOrderId}",
+     "openapi/_original/walmart-marketplace-fulfillment-openapi-original.yml#GET /v3/fulfillment/inbound-shipments",
+     "openapi/_original/walmart-marketplace-fulfillment-openapi-original.yml#POST /v3/fulfillment/inbound-shipments"
+    ]
+   }
+  }
+ },
+ "naming": {
+  "path_segment": {
+   "lower": [
+    "3plcentral",
+    "99-minutos",
+    "aeb",
+    "aftership",
+    "amazon-seller-central",
+    "ankorstore",
+    "barogo",
+    "benchling-lims",
+    "boxc",
+    "bringg",
+    "byrd",
+    "canal",
+    "cart-com",
+    "copthis",
+    "coyote",
+    "doordash",
+    "dsv",
+    "easyship",
+    "erply",
+    "extensiv",
+    "fulfil-io",
+    "gelato",
+    "gopuff",
+    "handwrite-io",
+    "instacart",
+    "instock",
+    "invendor",
+    "karrio",
+    "katana",
+    "kibo-commerce",
+    "komerce",
+    "kurly",
+    "locus-sh",
+    "logiless",
+    "magaya",
+    "metrobi",
+    "mile",
+    "newstore",
+    "ogc",
+    "ok-capsule",
+    "omniful-inc",
+    "optoro",
+    "orderdesk",
+    "ordoro",
+    "oto-global",
+    "paack",
+    "packagex",
+    "primis",
+    "printful",
+    "printify",
+    "prodigi",
+    "scalablepress",
+    "shipbob",
+    "shipmonk",
+    "shippit",
+    "shipstation",
+    "skydropx",
+    "snackmagic",
+    "spod",
+    "spreadshirt",
+    "stannp",
+    "teelaunch",
+    "uber-direct",
+    "uber-eats",
+    "vantor",
+    "vinculum",
+    "walmart",
+    "whiplash",
+    "whiplash-merchandising",
+    "wish",
+    "xentral",
+    "zalando",
+    "zoho-inventory"
+   ],
+   "kebab-case": [
+    "99-minutos",
+    "aeb",
+    "aftership",
+    "ankorstore",
+    "barogo",
+    "benchling-lims",
+    "boxc",
+    "bringg",
+    "byrd",
+    "canal",
+    "doordash",
+    "erply",
+    "gelato",
+    "invendor",
+    "kibo-commerce",
+    "komerce",
+    "kurly",
+    "locus-sh",
+    "magaya",
+    "mile",
+    "newstore",
+    "ogc",
+    "ok-capsule",
+    "omniful-inc",
+    "orderdesk",
+    "oto-global",
+    "postex",
+    "primis",
+    "printful",
+    "shipbob",
+    "shipmonk",
+    "shippit",
+    "skydropx",
+    "spod",
+    "spreadshirt",
+    "teelaunch",
+    "uber-eats",
+    "vantor",
+    "walmart",
+    "xentral",
+    "zalando"
+   ],
+   "snake_case": [
+    "bringg",
+    "byrd",
+    "canal",
+    "cart-com",
+    "copthis",
+    "doordash",
+    "fulfil-io",
+    "instacart",
+    "invendor",
+    "katana",
+    "kibo-commerce",
+    "logiless",
+    "metrobi",
+    "newstore",
+    "omniful-inc",
+    "optoro",
+    "ordoro",
+    "printify",
+    "skydropx",
+    "snackmagic",
+    "uber-direct",
+    "uber-eats",
+    "whiplash",
+    "whiplash-merchandising",
+    "wish"
+   ],
+   "camelCase": [
+    "aeb",
+    "amazon-seller-central",
+    "doordash",
+    "dsv",
+    "extensiv",
+    "invendor",
+    "kibo-commerce",
+    "ogc",
+    "oto-global",
+    "prodigi",
+    "scalablepress",
+    "spod",
+    "spreadshirt",
+    "stannp",
+    "vinculum",
+    "walmart",
+    "xentral"
+   ],
+   "other": [
+    "amazon-seller-central",
+    "ankorstore",
+    "benchling-lims",
+    "doordash",
+    "fulfil-io",
+    "gelato",
+    "kibo-commerce",
+    "newstore",
+    "ogc",
+    "omniful-inc",
+    "shipbob",
+    "walmart",
+    "xentral",
+    "zoho-inventory"
+   ],
+   "PascalCase": [
+    "3plcentral",
+    "aeb",
+    "british-columbia-data-catalogue",
+    "coyote",
+    "dsv",
+    "extensiv",
+    "invendor",
+    "kibo-commerce",
+    "vinculum",
+    "walmart"
+   ]
+  },
+  "query_param": {
+   "lower": [
+    "3plcentral",
+    "99-minutos",
+    "aeb",
+    "aftership",
+    "amazon-seller-central",
+    "ankorstore",
+    "barogo",
+    "benchling-lims",
+    "boxc",
+    "british-columbia-data-catalogue",
+    "byrd",
+    "canal",
+    "cart-com",
+    "copthis",
+    "coyote",
+    "doordash",
+    "dsv",
+    "easyship",
+    "erply",
+    "extensiv",
+    "fulfil-io",
+    "gelato",
+    "invendor",
+    "karrio",
+    "katana",
+    "kibo-commerce",
+    "komerce",
+    "locus-sh",
+    "logiless",
+    "magaya",
+    "mile",
+    "newstore",
+    "ogc",
+    "ok-capsule",
+    "optoro",
+    "orderdesk",
+    "ordoro",
+    "oto-global",
+    "packagex",
+    "primis",
+    "printful",
+    "printify",
+    "prodigi",
+    "scalablepress",
+    "shipbob",
+    "shipmonk",
+    "shipstation",
+    "skydropx",
+    "snackmagic",
+    "spod",
+    "spreadshirt",
+    "stannp",
+    "teelaunch",
+    "uber-direct",
+    "uber-eats",
+    "vantor",
+    "vinculum",
+    "walmart",
+    "whiplash",
+    "whiplash-merchandising",
+    "wish",
+    "xentral",
+    "zalando",
+    "zoho-inventory"
+   ],
+   "snake_case": [
+    "99-minutos",
+    "aeb",
+    "aftership",
+    "benchling-lims",
+    "boxc",
+    "byrd",
+    "canal",
+    "cart-com",
+    "copthis",
+    "doordash",
+    "easyship",
+    "erply",
+    "fulfil-io",
+    "instock",
+    "karrio",
+    "katana",
+    "komerce",
+    "logiless",
+    "mile",
+    "newstore",
+    "ok-capsule",
+    "optoro",
+    "orderdesk",
+    "ordoro",
+    "shipmonk",
+    "snackmagic",
+    "stannp",
+    "teelaunch",
+    "vantor",
+    "walmart",
+    "whiplash-merchandising",
+    "wish",
+    "xentral",
+    "zalando",
+    "zoho-inventory"
+   ],
+   "camelCase": [
+    "99-minutos",
+    "aeb",
+    "amazon-seller-central",
+    "ankorstore",
+    "barogo",
+    "benchling-lims",
+    "british-columbia-data-catalogue",
+    "byrd",
+    "coyote",
+    "doordash",
+    "dsv",
+    "erply",
+    "extensiv",
+    "gelato",
+    "invendor",
+    "katana",
+    "kibo-commerce",
+    "locus-sh",
+    "magaya",
+    "metrobi",
+    "mile",
+    "ogc",
+    "oto-global",
+    "primis",
+    "prodigi",
+    "scalablepress",
+    "shipmonk",
+    "shipstation",
+    "vantor",
+    "vinculum",
+    "walmart",
+    "xentral"
+   ],
+   "other": [
+    "aftership",
+    "ankorstore",
+    "barogo",
+    "boxc",
+    "cart-com",
+    "kibo-commerce",
+    "mile",
+    "zalando"
+   ],
+   "PascalCase": [
+    "amazon-seller-central",
+    "invendor",
+    "kibo-commerce",
+    "shipbob",
+    "vinculum"
+   ],
+   "kebab-case": [
+    "british-columbia-data-catalogue",
+    "kibo-commerce",
+    "ogc",
+    "zalando"
+   ]
+  },
+  "path_param": {
+   "lower": [
+    "99-minutos",
+    "aeb",
+    "aftership",
+    "amazon-seller-central",
+    "ankorstore",
+    "boxc",
+    "british-columbia-data-catalogue",
+    "canal",
+    "cart-com",
+    "copthis",
+    "coyote",
+    "doordash",
+    "dsv",
+    "easyship",
+    "erply",
+    "fulfil-io",
+    "invendor",
+    "karrio",
+    "katana",
+    "kibo-commerce",
+    "kurly",
+    "logiless",
+    "magaya",
+    "newstore",
+    "ok-capsule",
+    "omniful-inc",
+    "optoro",
+    "orderdesk",
+    "ordoro",
+    "packagex",
+    "primis",
+    "printful",
+    "prodigi",
+    "shipbob",
+    "skydropx",
+    "spod",
+    "spreadshirt",
+    "stannp",
+    "teelaunch",
+    "walmart",
+    "whiplash",
+    "whiplash-merchandising",
+    "wish",
+    "xentral",
+    "zalando"
+   ],
+   "camelCase": [
+    "3plcentral",
+    "aeb",
+    "amazon-seller-central",
+    "ankorstore",
+    "barogo",
+    "boxc",
+    "british-columbia-data-catalogue",
+    "coyote",
+    "doordash",
+    "dsv",
+    "erply",
+    "extensiv",
+    "gelato",
+    "handwrite-io",
+    "invendor",
+    "kibo-commerce",
+    "kurly",
+    "locus-sh",
+    "newstore",
+    "ogc",
+    "ok-capsule",
+    "ordoro",
+    "oto-global",
+    "postex",
+    "primis",
+    "prodigi",
+    "scalablepress",
+    "shipbob",
+    "shipstation",
+    "spod",
+    "spreadshirt",
+    "teelaunch",
+    "vantor",
+    "walmart",
+    "xentral",
+    "zalando"
+   ],
+   "snake_case": [
+    "99-minutos",
+    "aftership",
+    "ankorstore",
+    "benchling-lims",
+    "byrd",
+    "copthis",
+    "doordash",
+    "fulfil-io",
+    "gopuff",
+    "instacart",
+    "instock",
+    "karrio",
+    "kibo-commerce",
+    "komerce",
+    "logiless",
+    "metrobi",
+    "newstore",
+    "ok-capsule",
+    "omniful-inc",
+    "optoro",
+    "orderdesk",
+    "ordoro",
+    "printify",
+    "shippit",
+    "skydropx",
+    "snackmagic",
+    "stannp",
+    "uber-direct",
+    "uber-eats",
+    "whiplash",
+    "whiplash-merchandising",
+    "zalando",
+    "zoho-inventory"
+   ],
+   "kebab-case": [
+    "aeb",
+    "newstore",
+    "optoro",
+    "zalando"
+   ],
+   "PascalCase": [
+    "amazon-seller-central",
+    "walmart"
+   ],
+   "other": [
+    "dsv"
+   ]
+  },
+  "property": {
+   "lower": [
+    "boxc",
+    "byrd",
+    "cart-com",
+    "optoro",
+    "ordoro",
+    "shipbob",
+    "shipmonk",
+    "walmart",
+    "wish",
+    "xentral"
+   ],
+   "snake_case": [
+    "boxc",
+    "byrd",
+    "cart-com",
+    "optoro",
+    "ordoro",
+    "shipbob",
+    "shipmonk",
+    "wish"
+   ],
+   "other": [
+    "3plcentral",
+    "extensiv",
+    "ordoro"
+   ],
+   "camelCase": [
+    "byrd",
+    "shipstation",
+    "walmart"
+   ],
+   "PascalCase": [
+    "3plcentral"
+   ]
+  },
+  "pagination_param": {
+   "limit": [
+    "99-minutos",
+    "aeb",
+    "aftership",
+    "barogo",
+    "boxc",
+    "doordash",
+    "erply",
+    "gelato",
+    "kibo-commerce",
+    "komerce",
+    "logiless",
+    "magaya",
+    "newstore",
+    "ogc",
+    "ok-capsule",
+    "orderdesk",
+    "ordoro",
+    "packagex",
+    "primis",
+    "printful",
+    "printify",
+    "shipbob",
+    "spod",
+    "spreadshirt",
+    "stannp",
+    "teelaunch",
+    "uber-direct",
+    "uber-eats",
+    "vantor",
+    "walmart",
+    "whiplash",
+    "wish",
+    "zalando"
+   ],
+   "page": [
+    "99-minutos",
+    "aftership",
+    "byrd",
+    "copthis",
+    "coyote",
+    "easyship",
+    "fulfil-io",
+    "invendor",
+    "kibo-commerce",
+    "komerce",
+    "logiless",
+    "optoro",
+    "oto-global",
+    "packagex",
+    "primis",
+    "printify",
+    "shipbob",
+    "shipmonk",
+    "shipstation",
+    "skydropx",
+    "snackmagic",
+    "teelaunch",
+    "walmart",
+    "whiplash",
+    "whiplash-merchandising",
+    "xentral",
+    "zoho-inventory"
+   ],
+   "offset": [
+    "aeb",
+    "barogo",
+    "gelato",
+    "komerce",
+    "magaya",
+    "newstore",
+    "ogc",
+    "orderdesk",
+    "ordoro",
+    "printful",
+    "spod",
+    "spreadshirt",
+    "stannp",
+    "uber-direct",
+    "uber-eats",
+    "walmart",
+    "wish"
+   ],
+   "page_size": [
+    "99-minutos",
+    "amazon-seller-central",
+    "ankorstore",
+    "benchling-lims",
+    "coyote",
+    "erply",
+    "instock",
+    "invendor",
+    "kibo-commerce",
+    "newstore",
+    "shipbob",
+    "shipmonk",
+    "shipstation",
+    "zalando"
+   ],
+   "per_page": [
+    "byrd",
+    "copthis",
+    "easyship",
+    "fulfil-io",
+    "kibo-commerce",
+    "optoro",
+    "oto-global",
+    "snackmagic",
+    "whiplash-merchandising",
+    "xentral",
+    "zoho-inventory"
+   ],
+   "cursor": [
+    "canal",
+    "newstore",
+    "ok-capsule",
+    "shipbob",
+    "shipmonk",
+    "xentral",
+    "zalando"
+   ],
+   "count": [
+    "aftership",
+    "british-columbia-data-catalogue",
+    "doordash",
+    "newstore",
+    "vantor"
+   ],
+   "skip": [
+    "british-columbia-data-catalogue",
+    "erply",
+    "kibo-commerce",
+    "prodigi"
+   ],
+   "size": [
+    "99-minutos",
+    "ordoro",
+    "snackmagic"
+   ],
+   "page_token": [
+    "amazon-seller-central",
+    "boxc",
+    "kibo-commerce"
+   ],
+   "max_results": [
+    "aeb",
+    "kibo-commerce"
+   ],
+   "start": [
+    "kibo-commerce"
+   ],
+   "top": [
+    "prodigi"
+   ],
+   "after": [
+    "zalando"
+   ],
+   "before": [
+    "zalando"
+   ]
+  }
+ }
+}

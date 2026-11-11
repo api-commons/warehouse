@@ -1,0 +1,48 @@
+aid: common-warehouse
+name: Warehouse Management
+type: Common
+description: 'The common Warehouse Management vocabulary, distilled from the harvested OpenAPI of 75 providers in
+  APIs.io: shared operations, JSON Schema per concept with measured adoption, and a crosswalk from the common names
+  to each provider''s own.'
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Application Programming Interface
+- API
+- Warehouse Management
+- WMS
+- 3PL
+- Fulfillment
+- Common Schema
+created: '2026-11-11'
+modified: '2026-11-11'
+url: https://raw.githubusercontent.com/api-commons/warehouse/main/apis.yml
+specificationVersion: '0.20'
+apis:
+- aid: common-warehouse:warehouse
+  name: Common Warehouse Management Interface
+  description: The Warehouse Management interface the market already shares, measured.
+  humanURL: https://github.com/api-commons/warehouse
+  tags:
+  - Warehouse Management
+  - WMS
+  properties:
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-commons/warehouse/main/openapi.yml
+  - type: Profile
+    url: https://raw.githubusercontent.com/api-commons/warehouse/main/profile.yml
+  - type: Adopters
+    url: https://raw.githubusercontent.com/api-commons/warehouse/main/adopters.yml
+  - type: Rules
+    url: https://raw.githubusercontent.com/api-commons/schema-commons/main/ruleset/schema-commons-naming.yaml
+  - type: JSONSchema
+    name: warehouse
+    url: https://raw.githubusercontent.com/api-commons/warehouse/main/schema/warehouse.json
+  - type: JSONSchema
+    name: inbound_receipt
+    url: https://raw.githubusercontent.com/api-commons/warehouse/main/schema/inbound_receipt.json
+common:
+- type: License
+  url: https://raw.githubusercontent.com/api-commons/warehouse/main/LICENSE
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
